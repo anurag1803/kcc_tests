@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to KCC Manufacturing Demo Project</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white;
+            text-align: center;
+            padding: 50px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .team-overview {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .team {
+            padding: 15px 25px;
+            background: white;
+            color: #2a5298;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+        }
+        .team:hover {
+            background: #ffcc00;
+            color: #333;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to KCC Manufacturing Demo Project</h1>
+        <div class="team-overview">
+            <div class="team">APP-dev</div>
+            <div class="team">Infra-Sec</div>
+            <div class="team">PMO</div>
+            <div class="team">NPD</div>
+            <div class="team">Epicor</div>
+            <div class="team">R&D</div>
+        </div>
+    </div>
+</body>
+</html>
